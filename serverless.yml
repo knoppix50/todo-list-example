@@ -1,6 +1,6 @@
 org: knoppix50
 app: api-rest
-service: api-rest
+service: todo-list
 
 frameworkVersion: ">=1.1.0"
 
