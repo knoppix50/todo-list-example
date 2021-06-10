@@ -24,7 +24,7 @@ def create(event, context):
         'checked': False,
         'createdAt': timestamp,
         'updatedAt': timestamp,
-        'source_lang': data['source_lang'],
+        'lang': data['lang'],
     }
 
     # write the todo to the database
