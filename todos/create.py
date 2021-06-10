@@ -10,7 +10,7 @@ dynamodb = boto3.resource('dynamodb')
 
 def create(event, context):
     data = json.loads(event['body'])
-    if 'text' not in data and 'source_lang' not in data:
+    if 'text' not in data and 'lang' not in data:
         logging.error("Validation Failed")
         raise Exception("Couldn't create the todo item.")
     
@@ -37,5 +37,3 @@ def create(event, context):
     }
 
     return response
-    
-    # Creo un comentario de pruebas Deploy Test1
