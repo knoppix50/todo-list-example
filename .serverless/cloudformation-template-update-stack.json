@@ -267,7 +267,7 @@
           "S3Bucket": {
             "Ref": "ServerlessDeploymentBucket"
           },
-          "S3Key": "serverless/todo-list/dev/1623170743857-2021-06-08T16:45:43.857Z/todo-list.zip"
+          "S3Key": "serverless/todo-list/dev/1623327876442-2021-06-10T12:24:36.442Z/todo-list.zip"
         },
         "Handler": "s_create.handler",
         "Runtime": "python3.8",
@@ -297,7 +297,7 @@
           "S3Bucket": {
             "Ref": "ServerlessDeploymentBucket"
           },
-          "S3Key": "serverless/todo-list/dev/1623170743857-2021-06-08T16:45:43.857Z/todo-list.zip"
+          "S3Key": "serverless/todo-list/dev/1623327876442-2021-06-10T12:24:36.442Z/todo-list.zip"
         },
         "Handler": "s_list.handler",
         "Runtime": "python3.8",
@@ -327,7 +327,7 @@
           "S3Bucket": {
             "Ref": "ServerlessDeploymentBucket"
           },
-          "S3Key": "serverless/todo-list/dev/1623170743857-2021-06-08T16:45:43.857Z/todo-list.zip"
+          "S3Key": "serverless/todo-list/dev/1623327876442-2021-06-10T12:24:36.442Z/todo-list.zip"
         },
         "Handler": "s_get.handler",
         "Runtime": "python3.8",
@@ -357,7 +357,7 @@
           "S3Bucket": {
             "Ref": "ServerlessDeploymentBucket"
           },
-          "S3Key": "serverless/todo-list/dev/1623170743857-2021-06-08T16:45:43.857Z/todo-list.zip"
+          "S3Key": "serverless/todo-list/dev/1623327876442-2021-06-10T12:24:36.442Z/todo-list.zip"
         },
         "Handler": "s_update.handler",
         "Runtime": "python3.8",
@@ -387,7 +387,7 @@
           "S3Bucket": {
             "Ref": "ServerlessDeploymentBucket"
           },
-          "S3Key": "serverless/todo-list/dev/1623170743857-2021-06-08T16:45:43.857Z/todo-list.zip"
+          "S3Key": "serverless/todo-list/dev/1623327876442-2021-06-10T12:24:36.442Z/todo-list.zip"
         },
         "Handler": "s_delete.handler",
         "Runtime": "python3.8",
@@ -410,54 +410,54 @@
         "DeleteLogGroup"
       ]
     },
-    "ListLambdaVersionRPnNXrHNLE9R9fDP2Tp2vmTVxR4lzwos0OKMn8gdoY": {
+    "ListLambdaVersion9CigjDqDZd4m5oGmplJRsUeqHZXi1DE7ee7IIW1JRE": {
       "Type": "AWS::Lambda::Version",
       "DeletionPolicy": "Retain",
       "Properties": {
         "FunctionName": {
           "Ref": "ListLambdaFunction"
         },
-        "CodeSha256": "iayC5J634+NaxfxxuQABxSoR8ESHPwUII58fa46lNkg="
+        "CodeSha256": "wch1nSswRscyU4mb6AzxgMwgQNPHm+WWINh4iaDvoCA="
       }
     },
-    "GetLambdaVersiontXt79lLCRfMBJ3lvRJrOjm3YEZzv1d6qEs8QGdtTM": {
+    "GetLambdaVersionONv2Yv4HjBFTFWkoLRwpGzuecN8Lo1FYMbPhKmK0s8": {
       "Type": "AWS::Lambda::Version",
       "DeletionPolicy": "Retain",
       "Properties": {
         "FunctionName": {
           "Ref": "GetLambdaFunction"
         },
-        "CodeSha256": "iayC5J634+NaxfxxuQABxSoR8ESHPwUII58fa46lNkg="
+        "CodeSha256": "wch1nSswRscyU4mb6AzxgMwgQNPHm+WWINh4iaDvoCA="
       }
     },
-    "UpdateLambdaVersionA6FH3BmFuk00IT1JeCNGIVwlFDlS2pZI69la8KU": {
+    "UpdateLambdaVersionJFr9VheDHL7sMXAb4WE35n8UugnlezDUhu1ZUMvb8": {
       "Type": "AWS::Lambda::Version",
       "DeletionPolicy": "Retain",
       "Properties": {
         "FunctionName": {
           "Ref": "UpdateLambdaFunction"
         },
-        "CodeSha256": "iayC5J634+NaxfxxuQABxSoR8ESHPwUII58fa46lNkg="
+        "CodeSha256": "wch1nSswRscyU4mb6AzxgMwgQNPHm+WWINh4iaDvoCA="
       }
     },
-    "DeleteLambdaVersionjBQqSN3hoLNrJwqCyBQc5KOb98MTJ4ngHFK2Itd8": {
+    "DeleteLambdaVersionmSLAYj2qg4jBPwjbZymHSHCuZDynlP54NDKm7Kzk": {
       "Type": "AWS::Lambda::Version",
       "DeletionPolicy": "Retain",
       "Properties": {
         "FunctionName": {
           "Ref": "DeleteLambdaFunction"
         },
-        "CodeSha256": "iayC5J634+NaxfxxuQABxSoR8ESHPwUII58fa46lNkg="
+        "CodeSha256": "wch1nSswRscyU4mb6AzxgMwgQNPHm+WWINh4iaDvoCA="
       }
     },
-    "CreateLambdaVersionngCHZQN5CTsgITdrwsra7iNwDdrItUgr6t6FsGvawA8": {
+    "CreateLambdaVersion9Wd0OVoUy0E5qdeepwXUi6GrpYXEzBhAaLaxn8PFKI": {
       "Type": "AWS::Lambda::Version",
       "DeletionPolicy": "Retain",
       "Properties": {
         "FunctionName": {
           "Ref": "CreateLambdaFunction"
         },
-        "CodeSha256": "iayC5J634+NaxfxxuQABxSoR8ESHPwUII58fa46lNkg="
+        "CodeSha256": "wch1nSswRscyU4mb6AzxgMwgQNPHm+WWINh4iaDvoCA="
       }
     },
     "ApiGatewayRestApi": {
@@ -804,7 +804,7 @@
         "MethodResponses": []
       }
     },
-    "ApiGatewayDeployment1623170735682": {
+    "ApiGatewayDeployment1623327868210": {
       "Type": "AWS::ApiGateway::Deployment",
       "Properties": {
         "RestApiId": {
@@ -1116,7 +1116,7 @@
           "S3Bucket": {
             "Ref": "ServerlessDeploymentBucket"
           },
-          "S3Key": "serverless/todo-list/dev/1623170743857-2021-06-08T16:45:43.857Z/custom-resources.zip"
+          "S3Key": "serverless/todo-list/dev/1623327876442-2021-06-10T12:24:36.442Z/custom-resources.zip"
         },
         "FunctionName": "todo-list-dev-custom-resource-apigw-cw-role",
         "Handler": "apiGatewayCloudWatchRole/handler.handler",
@@ -1241,7 +1241,7 @@
     "ListLambdaFunctionQualifiedArn": {
       "Description": "Current Lambda function version",
       "Value": {
-        "Ref": "ListLambdaVersionRPnNXrHNLE9R9fDP2Tp2vmTVxR4lzwos0OKMn8gdoY"
+        "Ref": "ListLambdaVersion9CigjDqDZd4m5oGmplJRsUeqHZXi1DE7ee7IIW1JRE"
       },
       "Export": {
         "Name": "sls-todo-list-dev-ListLambdaFunctionQualifiedArn"
@@ -1250,7 +1250,7 @@
     "GetLambdaFunctionQualifiedArn": {
       "Description": "Current Lambda function version",
       "Value": {
-        "Ref": "GetLambdaVersiontXt79lLCRfMBJ3lvRJrOjm3YEZzv1d6qEs8QGdtTM"
+        "Ref": "GetLambdaVersionONv2Yv4HjBFTFWkoLRwpGzuecN8Lo1FYMbPhKmK0s8"
       },
       "Export": {
         "Name": "sls-todo-list-dev-GetLambdaFunctionQualifiedArn"
@@ -1259,7 +1259,7 @@
     "UpdateLambdaFunctionQualifiedArn": {
       "Description": "Current Lambda function version",
       "Value": {
-        "Ref": "UpdateLambdaVersionA6FH3BmFuk00IT1JeCNGIVwlFDlS2pZI69la8KU"
+        "Ref": "UpdateLambdaVersionJFr9VheDHL7sMXAb4WE35n8UugnlezDUhu1ZUMvb8"
       },
       "Export": {
         "Name": "sls-todo-list-dev-UpdateLambdaFunctionQualifiedArn"
@@ -1268,7 +1268,7 @@
     "DeleteLambdaFunctionQualifiedArn": {
       "Description": "Current Lambda function version",
       "Value": {
-        "Ref": "DeleteLambdaVersionjBQqSN3hoLNrJwqCyBQc5KOb98MTJ4ngHFK2Itd8"
+        "Ref": "DeleteLambdaVersionmSLAYj2qg4jBPwjbZymHSHCuZDynlP54NDKm7Kzk"
       },
       "Export": {
         "Name": "sls-todo-list-dev-DeleteLambdaFunctionQualifiedArn"
@@ -1277,7 +1277,7 @@
     "CreateLambdaFunctionQualifiedArn": {
       "Description": "Current Lambda function version",
       "Value": {
-        "Ref": "CreateLambdaVersionngCHZQN5CTsgITdrwsra7iNwDdrItUgr6t6FsGvawA8"
+        "Ref": "CreateLambdaVersion9Wd0OVoUy0E5qdeepwXUi6GrpYXEzBhAaLaxn8PFKI"
       },
       "Export": {
         "Name": "sls-todo-list-dev-CreateLambdaFunctionQualifiedArn"
