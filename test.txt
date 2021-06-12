@@ -1,3 +1,0 @@
-Hola master
-Hola desde develop
-Reparando rama master
