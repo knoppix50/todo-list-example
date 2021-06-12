@@ -36,5 +36,3 @@ def create(event, context):
     }
 
     return response
-    
-    # Creo un comentario de pruebas Deploy Test1
